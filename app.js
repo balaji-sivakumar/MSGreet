@@ -6,8 +6,8 @@ var server = restify.createServer();
 server.listen(process.env.port || process.env.PORT || 3978, function () {
    console.log('%s listening to %s', server.name, server.url); 
 });
-var MICROSOFT_APP_ID = "7395cd9c-5fa3-4a78-ad7a-7989231387a1";
-var MICROSOFT_APP_PASSWORD = "nYU54bqyjX2BgCEuacbXEAq";
+var MICROSOFT_APP_ID = "8be1b9c7-402d-48f3-92cb-3a4be31db5c7";
+var MICROSOFT_APP_PASSWORD = "NcnOaUS0Fq3OYJ8UVkSNuUw";
 var LUIS_MODEL_URL="https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/23ecec6e-1bd1-4433-bdd8-a62fadc2d32f?subscription-key=fbd6c82bc4f149eeba4a1ae5d5ffde60&timezoneOffset=0&verbose=true";
 
 // Create chat connector for communicating with the Bot Framework Service
